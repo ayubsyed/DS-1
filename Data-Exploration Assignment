@@ -1,0 +1,13 @@
+#Importing all Libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+#Reading the Data File
+Path = 'https://raw.githubusercontent.com/delinai/schulich_ds1_2024/blob/main/Datasets/Assignment1_StreamFlow_Subscription_Data.csv'
+Subscription = pd.read_csv(Path)
+
+Subscription.head()
+
+
